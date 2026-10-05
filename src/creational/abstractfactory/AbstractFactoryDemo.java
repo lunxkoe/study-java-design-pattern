@@ -1,6 +1,11 @@
 package creational.abstractfactory;
 
-/** 추상 팩토리 패턴 */
+/*
+> 추상 팩토리 - 의존 객체들의 그룹
+- 구체적인 클래스에 의존하지 않고
+- 인터페이스를 통해 서로 연관, 의존하는 객체들의 **그룹**으로 생성
+- **연관된 서브 클래스를 한 번에 교체하는 것이 가능**
+*/
 public class AbstractFactoryDemo {
 
     public static void main(String[] args) {
